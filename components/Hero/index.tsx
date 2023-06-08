@@ -4,7 +4,7 @@ import BuyTheWormBox from "./BuyTheWormBox";
 const Hero = () => {
   return (
     <div
-      className="min-h-screen w-full flex flex-col pr-[2rem] pl-[2rem] pt-[2rem] pb[2rem] gap-[3rem]
+      className="min-h-screen w-full flex flex-col pr-[2rem] pl-[2rem] pt-[2rem] pb[2rem] gap-[3rem] mb-[2rem]
     tabletS:pt-[10rem]
     tabletS:pl-[3rem]
     tabletS:pr-[3rem]
@@ -79,7 +79,7 @@ const Hero = () => {
           nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
           volutpat. BUY THE WORM ON OPENSEA
         </div>
-        <div className="pr-[1rem] pl-[1rem]">
+        <div className="pr-[1rem] pl-[1rem] pt-[2rem] pb-[2rem]">
           <BuyTheWormBox />
         </div>
       </div>
