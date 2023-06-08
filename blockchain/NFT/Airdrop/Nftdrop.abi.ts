@@ -1,0 +1,117 @@
+export const abiNftdrop = [
+  {
+    type: "constructor",
+    stateMutability: "nonpayable",
+    inputs: [{ type: "address", name: "_nft", internalType: "address" }],
+  },
+  {
+    type: "event",
+    name: "Claimed",
+    inputs: [
+      { type: "uint256", name: "", internalType: "uint256", indexed: false },
+      { type: "address", name: "", internalType: "address", indexed: false },
+    ],
+    anonymous: false,
+  },
+  {
+    type: "event",
+    name: "OwnershipTransferred",
+    inputs: [
+      {
+        type: "address",
+        name: "previousOwner",
+        internalType: "address",
+        indexed: true,
+      },
+      {
+        type: "address",
+        name: "newOwner",
+        internalType: "address",
+        indexed: true,
+      },
+    ],
+    anonymous: false,
+  },
+  {
+    type: "function",
+    stateMutability: "nonpayable",
+    outputs: [],
+    name: "addWhitelist",
+    inputs: [
+      { type: "address[]", name: "_whitelist", internalType: "address[]" },
+      { type: "uint256[]", name: "tokenIds", internalType: "uint256[]" },
+    ],
+  },
+  {
+    type: "function",
+    stateMutability: "nonpayable",
+    outputs: [],
+    name: "claim",
+    inputs: [],
+  },
+  {
+    type: "function",
+    stateMutability: "view",
+    outputs: [{ type: "bool", name: "", internalType: "bool" }],
+    name: "isClaimed",
+    inputs: [{ type: "address", name: "_addr", internalType: "address" }],
+  },
+  {
+    type: "function",
+    stateMutability: "view",
+    outputs: [{ type: "address", name: "", internalType: "address" }],
+    name: "owner",
+    inputs: [],
+  },
+  {
+    type: "function",
+    stateMutability: "view",
+    outputs: [{ type: "bool", name: "", internalType: "bool" }],
+    name: "pause",
+    inputs: [],
+  },
+  {
+    type: "function",
+    stateMutability: "nonpayable",
+    outputs: [],
+    name: "removeWhitelist",
+    inputs: [
+      { type: "address[]", name: "_whitelist", internalType: "address[]" },
+    ],
+  },
+  {
+    type: "function",
+    stateMutability: "nonpayable",
+    outputs: [],
+    name: "renounceOwnership",
+    inputs: [],
+  },
+  {
+    type: "function",
+    stateMutability: "nonpayable",
+    outputs: [],
+    name: "setPause",
+    inputs: [{ type: "bool", name: "_value", internalType: "bool" }],
+  },
+  {
+    type: "function",
+    stateMutability: "nonpayable",
+    outputs: [],
+    name: "setStart",
+    inputs: [{ type: "uint256", name: "_time", internalType: "uint256" }],
+  },
+  {
+    type: "function",
+    stateMutability: "view",
+    outputs: [{ type: "uint256", name: "", internalType: "uint256" }],
+    name: "startTime",
+    inputs: [],
+  },
+  {
+    type: "function",
+    stateMutability: "nonpayable",
+    outputs: [],
+    name: "transferOwnership",
+    inputs: [{ type: "address", name: "newOwner", internalType: "address" }],
+  },
+];
