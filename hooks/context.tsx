@@ -5,7 +5,6 @@ import {
   useEffect,
   useState,
 } from "react";
-import { useReadApprove } from "../blockchain/Tokens/ERC20/ERC20.read";
 
 type appContextType = {
   isLoading: boolean;
@@ -32,14 +31,11 @@ type Props = {
 };
 
 export function AppProvider({ children }: Props) {
-  const { approveRead } = useReadApprove();
   const [isMinting, setMintingState] = useState(false);
   const [isApproved, setApproveState] = useState(false);
   const [isLoading, setLoadingState] = useState(false);
 
-  useEffect(() => {
-    setApproveState(approveRead);
-  }, [approveRead]);
+  useEffect(() => {}, []);
 
   function setMinting(state: boolean) {
     setMintingState(state);
