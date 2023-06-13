@@ -19,13 +19,13 @@ const Hero = () => {
     >
       <div
         className="
-    flex items-center flex-col gap-[1rem]
+    flex items-center justify-center  flex-col gap-[1rem]
     tabletS:flex-row
     tabletS:items-start
     labtop:gap-[2rem]
     "
       >
-        <div>
+        <div className="max-w-[700px]">
           <h1
             className="text-[2.5rem] font-bold
         labtop:text-[3.8rem]"
@@ -39,8 +39,10 @@ const Hero = () => {
            labtop:text-[1.23rem] 
           "
           >
-            Lorem ipsum dolor sit amet, consectetuer adipisc- ing elit, sed diam
-            nonummy nibh euismod tincid- unt ut laoreet dolore magna
+            วอร์มมู NFT BULE CHIP การลงทุนด้านเหมือง อาทิ เหมืองแร่ เหมืองหิน
+            เหมืองเหล็ก และเหมืองทองคํา โดยทางเราจะเลือกมา แล้วให้ HOLDERS
+            ของเรา เป็นคนช่วย Votes หรือ ออกความ เห็น ในการลงทุน
+            และนําผลกําไรท่ีได้มาแบ่งให้กับ HOLDERS ทุกท่าน
           </p>
         </div>
         <Image
@@ -53,8 +55,8 @@ const Hero = () => {
         />
       </div>
       <div
-        className="grid grid-rows-3 grid-cols-1 gap-[2rem] 
-      tabletS:grid-cols-3 
+        className="grid grid-rows-2 grid-cols-1 gap-[2rem] 
+      tabletS:grid-cols-2
       tabletS:grid-rows-1
       tabletS:pl-[1rem] 
       tabletS:pr-[1rem] 
@@ -68,17 +70,18 @@ const Hero = () => {
             text-[1.5rem]
           labtop:text-[2rem]"
           >
-            BUY THE WORM
+            {/* BUY THE WORM */}
+            OVER XXX WALLETS HOLDER
           </div>
         </div>
-        <div
+        {/* <div
           className="pr-[1rem] pl-[1rem] tabletS:text-[0.8rem]
         labtop:text-[1rem]"
         >
           Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
           nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
           volutpat. BUY THE WORM ON OPENSEA
-        </div>
+        </div> */}
         <div className="pr-[1rem] pl-[1rem] pt-[2rem] pb-[2rem]">
           <BuyTheWormBox />
         </div>

@@ -20,38 +20,36 @@ const Loadmap = () => {
             <div className="flex flex-col items-center gap-2">
               <div className="text-yellow text-[2rem] font-[600]">PHASE 1</div>
               <ul className="text-[1.2rem]">
-                <li>- Lorem ipsum</li>
-                <li>- Lorem ipsum</li>
-                <li>- Lorem ipsum</li>
-                <li>- Lorem ipsum</li>
+                <li>- BUILD PLATFORMm</li>
+                <li>- BUILD COMMUNITY</li>
+                <li>- PRODUCE RESEARCH</li>
+                <li>- LAUNCH NFTs</li>
+                <li>- WROM MOO DAO</li>
               </ul>
             </div>
           </PhaseBox>
           <PhaseBox>
             <div className="flex flex-col items-center gap-2">
-              <div className="text-red text-[2rem] font-[600]">PHASE 1</div>
+              <div className="text-red text-[2rem] font-[600]">PHASE 2</div>
               <ul className="text-[1.2rem]">
-                <li>- Lorem ipsum</li>
-                <li>- Lorem ipsum</li>
-                <li>- Lorem ipsum</li>
-                <li>- Lorem ipsum</li>
+                <li>- LAUNCH PLATFORM</li>
+                <li>- LAUNCH EARN NFTs</li>
+                <li>- EXPAND PRODUCT</li>
+                <li>- MINI GAME</li>
               </ul>
             </div>
           </PhaseBox>
           <PhaseBox>
             <div className="flex flex-col items-center gap-2 ">
               <div className="text-lightgreen text-[2rem] font-[600]">
-                PHASE 1
+                PHASE 3
               </div>
               <ul className="text-[1.2rem]">
-                <li>- Lorem ipsum</li>
-                <li>- Lorem ipsum</li>
-                <li>- Lorem ipsum</li>
-                <li>- Lorem ipsum</li>
+                <li>- STAY TUNE</li>
               </ul>
             </div>
           </PhaseBox>
-          <PhaseBox>
+          {/* <PhaseBox>
             <div className="flex flex-col items-center gap-2">
               <div className="text-purple text-[2rem] font-[600]">PHASE 1</div>
               <ul className="text-[1.2rem]">
@@ -59,7 +57,7 @@ const Loadmap = () => {
                 <li>- Lorem ipsum</li>
               </ul>
             </div>
-          </PhaseBox>
+          </PhaseBox> */}
         </div>
       </div>
     </div>
