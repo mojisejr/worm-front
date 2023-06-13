@@ -5,7 +5,10 @@ class MyDocument extends Document {
     return (
       <Html>
         <Head>
-          <meta name="description" content="APE ARB Official" />
+          <meta
+            name="description"
+            content="วอร์มมู NFT BULE CHIP การลงทุนด้านเหมือง อาทิ เหมืองแร่ เหมืองหิน เหมืองเหล็ก และเหมืองทองคํา โดยทางเราจะเลือกมา แล้วให้ HOLDERS ของเรา เป็นคนช่วย Votes หรือ ออกความ เห็น ในการลงทุน และนําผลกําไรท่ีได้มาแบ่งให้กับ HOLDERS ทุกท่าน"
+          />
           <link rel="shortcut icon" href="/images/coin.png" />
           <link rel="preconnect" href="https://fonts.googleapis.com" />
           <link
