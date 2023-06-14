@@ -46,8 +46,8 @@ const Hero = () => {
           </p>
         </div>
         <Image
-          src="/images/mainnft.png"
-          className="w-[300px]
+          src="/images/main2.gif"
+          className="w-[300px] rounded-xl
         labtop:w-[600px]"
           width={200}
           height={200}
