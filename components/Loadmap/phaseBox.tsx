@@ -4,7 +4,7 @@ interface PhaseBoxProps {
 }
 const PhaseBox = ({ children }: PhaseBoxProps) => {
   return (
-    <div className="p-[2rem] bg-dark rounded min-w-[250px]">{children}</div>
+    <div className="p-[2rem] bg-dark rounded-2xl min-w-[250px]">{children}</div>
   );
 };
 

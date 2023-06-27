@@ -1,5 +1,6 @@
 import Image from "next/image";
 import BuyTheWormBox from "./BuyTheWormBox";
+import { arl, kga } from "../../helpers/font";
 
 const Hero = () => {
   return (
@@ -14,6 +15,7 @@ const Hero = () => {
     labtop:pt-[10rem]
     labtop:pl-[10rem]
     labtop:pr-[10rem]
+    labtop:pb-[10rem]
     labtop:gap-[10rem]
     "
     >
@@ -27,28 +29,31 @@ const Hero = () => {
       >
         <div className="max-w-[700px]">
           <h1
-            className="text-[2.5rem] font-bold
-        labtop:text-[3.8rem]"
+            className={`text-[2.5rem] font-bold
+        labtop:text-[3.8rem] ${arl.className} `}
           >
             Let{"’"}s collect Extraordinary{" "}
-            <span className="text-lightgreen">W</span>ormm
-            <span className="text-yellow">oo</span> NFTs
+            <span className={`${kga.className}`}>
+              <span className="text-lightgreen">W</span>ormm
+              <span className={`text-yellow ${kga.className}`}>oo</span>
+            </span>{" "}
+            NFTs
           </h1>
           <p
             className="text-[1rem]
            labtop:text-[1.23rem] 
           "
           >
-            วอร์มมู NFT BULE CHIP การลงทุนด้านเหมือง อาทิ เหมืองแร่ เหมืองหิน
-            เหมืองเหล็ก และเหมืองทองคํา โดยทางเราจะเลือกมา แล้วให้ HOLDERS
-            ของเรา เป็นคนช่วย Votes หรือ ออกความ เห็น ในการลงทุน
-            และนําผลกําไรท่ีได้มาแบ่งให้กับ HOLDERS ทุกท่าน
+            Wormoo NFT Bluechip, mining investment such as, Gold mine, Iron
+            mine, Rock mine, and more in which we let our holders be the voters
+            and share opinion on the investment, where received profit will be
+            shared to all holders.
           </p>
         </div>
         <Image
           src="/images/main2.gif"
           className="w-[300px] rounded-xl
-        labtop:w-[600px]"
+        labtop:w-[400px]"
           width={200}
           height={200}
           alt="mainnft"

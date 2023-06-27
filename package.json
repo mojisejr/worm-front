@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@headlessui/react": "^1.7.15",
+    "@next/font": "^13.4.7",
     "@rainbow-me/rainbowkit": "^0.12.7",
     "dayjs": "^1.11.7",
     "ethers": "^5",

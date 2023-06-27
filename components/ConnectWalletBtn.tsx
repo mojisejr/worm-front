@@ -38,7 +38,7 @@ export const ConnectWalletButton = () => {
               if (!connected) {
                 return (
                   <motion.button
-                    className="bg-yellow text-purple pl-[30px] pr-[30px] pt-1 pb-1 min-w-[100px] text-[18px] tabletM:text-[25px] rounded-full shadow-[5px_5px_0px_0px_rgb(208,187,124)]"
+                    className="bg-yellow text-purple pl-[30px] pr-[30px] pt-1 pb-1 min-w-[100px] text-[18px] tabletM:text-[25px] rounded-full hover:shadow-[5px_5px_0px_0px_rgb(208,187,124)] transition-shadow"
                     onClick={openConnectModal}
                     type="button"
                   >
