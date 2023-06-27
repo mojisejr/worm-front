@@ -55,18 +55,18 @@ const Hero = () => {
         />
       </div>
       <div
-        className="grid grid-rows-2 grid-cols-1 gap-[2rem] 
+        className="grid grid-rows-2 grid-cols-1 gap-[2rem] rounded-2xl
       tabletS:grid-cols-2
       tabletS:grid-rows-1
-      tabletS:pl-[1rem] 
-      tabletS:pr-[1rem] 
-      tabletS:pt-[2rem] 
-      tabletS:pb-[2rem] 
+      tabletS:pl-[0.5rem] 
+      tabletS:pr-[0.5rem] 
+      tabletS:pt-[1rem] 
+      tabletS:pb-[1rem] 
       bg-lightgreen"
       >
         <div className="flex items-center justify-center">
           <div
-            className="font-bold text-purple
+            className=" font-[400] text-purple
             text-[1.5rem]
           labtop:text-[2rem]"
           >

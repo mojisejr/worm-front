@@ -38,18 +38,11 @@ export const ConnectWalletButton = () => {
               if (!connected) {
                 return (
                   <motion.button
-                    initial={{ opacity: 0 }}
-                    animate={{
-                      opacity: 1,
-                      boxShadow: "0px 0px 15px 5px rgba(255,195,100,0.5)",
-                    }}
-                    whileHover={{ scale: 1.05 }}
-                    transition={{ duration: 0.3 }}
-                    className="relative bg-pepe_nothing text-pepe_white pl-[30px] pr-[30px] pt-1 pb-1 min-w-[100px] text-[20px] rounded-[30px]"
+                    className="bg-yellow text-purple pl-[30px] pr-[30px] pt-1 pb-1 min-w-[100px] text-[18px] tabletM:text-[25px] rounded-full shadow-[5px_5px_0px_0px_rgb(208,187,124)]"
                     onClick={openConnectModal}
                     type="button"
                   >
-                    Connect
+                    Connect Wallet
                   </motion.button>
                 );
               }

@@ -11,7 +11,6 @@ const Home: NextPage = () => {
   return (
     <Layout>
       <Header />
-      <hr></hr>
       <Hero />
       <OurNFT />
       <Loadmap />

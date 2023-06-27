@@ -2,13 +2,12 @@ import Image from "next/image";
 const BuyTheWormBox = () => {
   return (
     <div
-      className="relative p-[1rem] bg-purple flex flex-col items-center justify-center rounded-xl text-yellow 
+      className="relative pl-[1rem] pr-[1rem] pt-[1.5rem] pb-[1.5rem] bg-purple flex flex-col items-center justify-center rounded-xl text-yellow shadow-[5px_5px_0px_0px_rgb(117,94,161)] 
     text-[1.3rem]
     labtop:text-[2rem]
     "
     >
       <div className="font-[600]">BUY THE WORM</div>
-      <div className="font-[600]">ON OPENSEA</div>
       <Image
         className="absolute top-[-1.8rem] left-[-1.8rem]"
         src="/images/s1.png"
