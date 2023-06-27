@@ -1,15 +1,15 @@
 import localFont from "@next/font/local";
 
 export const arl = localFont({
-  src: "/fonts/ARLRDBD.ttf",
+  src: "./ARLRDBD.ttf",
   style: "normal",
 });
 export const gum = localFont({
-  src: "/fonts/Bubblegum.ttf",
+  src: "./Bubblegum.ttf",
   style: "normal",
 });
 
 export const kga = localFont({
-  src: "/fonts/KGAlwaysAGoodTime.ttf",
+  src: "./KGAlwaysAGoodTime.ttf",
   style: "normal",
 });
