@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Menu from "./menu";
+import Link from "next/link";
 
 const Header = () => {
   return (
@@ -13,14 +14,16 @@ const Header = () => {
     tabletM:pb-[1.5rem]
     "
     >
-      <Image
-        className="tabletS:w-[120px]
+      <Link href="/">
+        <Image
+          className="tabletS:w-[120px]
       labtop:w-[150px]"
-        src="/images/logo.png"
-        width={100}
-        height={100}
-        alt="logo"
-      />
+          src="/images/logo.png"
+          width={100}
+          height={100}
+          alt="logo"
+        />
+      </Link>
       <Menu />
     </div>
   );

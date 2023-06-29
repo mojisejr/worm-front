@@ -7,6 +7,7 @@ import { arl } from "../../helpers/font";
 const Footer = () => {
   return (
     <div className="w-full h-full bg-dark pt-[3rem] pb-[3rem] pl-[8rem] pr-[8rem]">
+      <hr className="pb-3" />
       <div className="tabletS:grid tabletS:grid-cols-3 flex flex-col items-center gap-[2rem]">
         <div
           className="flex flex-col items-center 
@@ -34,7 +35,7 @@ const Footer = () => {
           </ul>
         </div>
         <div></div>
-        <div className="flex justify-center items-center">
+        <div className="flex justify-end items-center">
           <Image
             className="w-[200px]"
             src="/images/logo.png"

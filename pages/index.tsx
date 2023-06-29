@@ -5,12 +5,15 @@ import Hero from "../components/Hero";
 import OurNFT from "../components/OurNFT";
 import Loadmap from "../components/Loadmap";
 import Footer from "../components/Footer";
+import HeroContent from "../components/Hero/Hero";
 
 const Home: NextPage = () => {
   return (
     <Layout>
       <Header />
-      <Hero />
+      <Hero>
+        <HeroContent />
+      </Hero>
       <OurNFT />
       <Loadmap />
       <Footer />

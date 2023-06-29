@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { ConnectButton } from "@rainbow-me/rainbowkit";
 import { motion } from "framer-motion";
+import { arl, kga } from "../helpers/font";
 
 export const ConnectWalletButton = () => {
   return (
@@ -38,7 +39,8 @@ export const ConnectWalletButton = () => {
               if (!connected) {
                 return (
                   <motion.button
-                    className="bg-yellow text-purple pl-[30px] pr-[30px] pt-1 pb-1 min-w-[100px] text-[18px] tabletM:text-[25px] rounded-full hover:shadow-[5px_5px_0px_0px_rgb(208,187,124)] transition-shadow"
+                    whileTap={{ scale: 0.8 }}
+                    className={`bg-yellow text-purple pl-[30px] pr-[30px] pt-1 pb-1 min-w-[100px] text-[18px] tabletM:text-[2rem] rounded-full hover:shadow-[5px_5px_0px_0px_rgb(208,187,124)] transition-shadow ${kga.className}`}
                     onClick={openConnectModal}
                     type="button"
                   >
@@ -97,8 +99,14 @@ export const ConnectWalletButton = () => {
                     {/* {chain.name} */}
                   </button>
 
-                  <button onClick={openAccountModal} type="button">
-                    <div>{account.displayName}</div>
+                  <button
+                    className={`flex gap-3 text-[1.5rem] text-yellow font-bold ${arl.className}`}
+                    onClick={openAccountModal}
+                    type="button"
+                  >
+                    <div className="font-bold tracking-[1px]">
+                      {account.displayName}
+                    </div>
                     {account.displayBalance
                       ? ` (${account.displayBalance})`
                       : ""}

@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 const BuyTheWormBox = () => {
   return (
     <div
@@ -7,7 +8,9 @@ const BuyTheWormBox = () => {
     labtop:text-[2rem]
     "
     >
-      <div className="font-[600]">BUY THE WORM</div>
+      <Link href="/minting" className="font-[600]">
+        BUY THE WORM
+      </Link>
       <Image
         className="absolute top-[-1.8rem] left-[-1.8rem]"
         src="/images/s1.png"

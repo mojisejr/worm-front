@@ -1,4 +1,4 @@
-import { arl, gum } from "../../helpers/font";
+import { arl, gum, kga } from "../../helpers/font";
 import LoadingBar from "./loadingBar";
 import PhaseBox from "./phaseBox";
 
@@ -23,45 +23,45 @@ const Loadmap = () => {
         "
         >
           <PhaseBox>
-            <div className="flex flex-col items-center gap-2">
+            <div className="flex flex-col items-center gap-2 p-2">
               <div
                 className={`text-yellow text-[2rem] font-[600] ${arl.className}`}
               >
                 PHASE 1
               </div>
               <ul className="text-[1.2rem] list-disc">
-                <li>BUILD PLATFORM</li>
-                <li>BUILD COMMUNITY</li>
-                <li>PRODUCE RESEARCH</li>
-                <li>LAUNCH NFTs</li>
-                <li>WROM MOO DAO</li>
+                <li className={arl.className}>BUILD PLATFORM</li>
+                <li className={arl.className}>BUILD COMMUNITY</li>
+                <li className={arl.className}>PRODUCE RESEARCH</li>
+                <li className={arl.className}>LAUNCH NFTs</li>
+                <li className={arl.className}>WROM MOO DAO</li>
               </ul>
             </div>
           </PhaseBox>
           <PhaseBox>
-            <div className="flex flex-col items-center gap-2">
+            <div className="flex flex-col items-center gap-2 p-2">
               <div
                 className={`text-red text-[2rem] font-[600] ${arl.className}`}
               >
                 PHASE 2
               </div>
               <ul className="text-[1.2rem] list-disc">
-                <li>LAUNCH PLATFORM</li>
-                <li>LAUNCH EARN NFTs</li>
-                <li>EXPAND PRODUCT</li>
-                <li>MINI GAME</li>
+                <li className={arl.className}>LAUNCH PLATFORM</li>
+                <li className={arl.className}>LAUNCH EARN NFTs</li>
+                <li className={arl.className}>EXPAND PRODUCT</li>
+                <li className={arl.className}>MINI GAME</li>
               </ul>
             </div>
           </PhaseBox>
           <PhaseBox>
-            <div className="flex flex-col items-center gap-2 ">
+            <div className="flex flex-col items-center gap-2 p-2">
               <div
                 className={`text-lightgreen text-[2rem] font-[600] ${arl.className}`}
               >
                 PHASE 3
               </div>
               <ul className="text-[1.2rem] list-disc">
-                <li>STAY TUNE</li>
+                <li className={arl.className}>STAY TUNE</li>
               </ul>
             </div>
           </PhaseBox>
